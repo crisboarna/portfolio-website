@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileSkillSection compare to snapshot 1`] = `
+<ProfileSkillSection>
+  <div
+    className="col-xs-6 col-lg-6"
+  >
+    <ScrollAnimation
+      animateIn="fadeInRight"
+      animateOnce={true}
+      delay={0}
+      duration={1}
+      initiallyVisible={false}
+      offset={500}
+    >
+      <div
+        className="animated"
+        style={
+          Object {
+            "animationDuration": "1s",
+            "visibility": "hidden",
+          }
+        }
+      >
+        <t
+          animationDelay={1000}
+          animationDuration={3000}
+          colors={
+            Object {
+              "bar": "#3498db",
+              "title": Object {
+                "background": "#2980b9",
+                "text": "#fff",
+              },
+            }
+          }
+          height={28}
+          offset={0}
+          skills={
+            Array [
+              Object {
+                "level": 86,
+                "type": "Java",
+              },
+              Object {
+                "level": 78,
+                "type": "Javascript",
+              },
+              Object {
+                "level": 75,
+                "type": "Spring",
+              },
+              Object {
+                "level": 70,
+                "type": "Python",
+              },
+              Object {
+                "level": 66,
+                "type": "ReactJS",
+              },
+              Object {
+                "level": 70,
+                "type": "Docker",
+              },
+              Object {
+                "level": 65,
+                "type": "AWS",
+              },
+              Object {
+                "level": 60,
+                "type": "ELK",
+              },
+              Object {
+                "level": 57,
+                "type": "NoSQL",
+              },
+              Object {
+                "level": 50,
+                "type": "C#",
+              },
+            ]
+          }
+        >
+          <div>
+            <div
+              className="skillbar"
+              key="Java"
+              style={
+                Object {
+                  "height": "28px",
+                  "lineHeight": "28px",
+                }
+              }
+            >
+              <div
+                className="skillbar-title"
+                style={
+                  Object {
+                    "background": "#2980b9",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <span>
+                  Java
+                </span>
+              </div>
+              <div
+                className="skillbar-bar collapsed"
+                style={
+                  Object {
+                    "background": "#3498db",
+                    "transition": "width 3000ms ease-in-out",
+                    "width": "calc((100% - 110px) * (86 * 0.01))",
+                  }
+                }
+              />
+              <div
+                className="skillbar-percent"
+              >
+                86
+                %
+              </div>
+            </div>
+            <div
+              className="skillbar"
+              key="Javascript"
+              style={
+                Object {
+                  "height": "28px",
+                  "lineHeight": "28px",
+                }
+              }
+            >
+              <div
+                className="skillbar-title"
+                style={
+                  Object {
+                    "background": "#2980b9",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <span>
+                  Javascript
+                </span>
+              </div>
+              <div
+                className="skillbar-bar collapsed"
+                style={
+                  Object {
+                    "background": "#3498db",
+                    "transition": "width 3000ms ease-in-out",
+                    "width": "calc((100% - 110px) * (78 * 0.01))",
+                  }
+                }
+              />
+              <div
+                className="skillbar-percent"
+              >
+                78
+                %
+              </div>
+            </div>
+            <div
+              className="skillbar"
+              key="Spring"
+              style={
+                Object {
+                  "height": "28px",
+                  "lineHeight": "28px",
+                }
+              }
+            >
+              <div
+                className="skillbar-title"
+                style={
+                  Object {
+                    "background": "#2980b9",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <span>
+                  Spring
+                </span>
+              </div>
+              <div
+                className="skillbar-bar collapsed"
+                style={
+                  Object {
+                    "background": "#3498db",
+                    "transition": "width 3000ms ease-in-out",
+                    "width": "calc((100% - 110px) * (75 * 0.01))",
+                  }
+                }
+              />
+              <div
+                className="skillbar-percent"
+              >
+                75
+                %
+              </div>
+            </div>
+            <div
+              className="skillbar"
+              key="Python"
+              style={
+                Object {
+                  "height": "28px",
+                  "lineHeight": "28px",
+                }
+              }
+            >
+              <div
+                className="skillbar-title"
+                style={
+                  Object {
+                    "background": "#2980b9",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <span>
+                  Python
+                </span>
+              </div>
+              <div
+                className="skillbar-bar collapsed"
+                style={
+                  Object {
+                    "background": "#3498db",
+                    "transition": "width 3000ms ease-in-out",
+                    "width": "calc((100% - 110px) * (70 * 0.01))",
+                  }
+                }
+              />
+              <div
+                className="skillbar-percent"
+              >
+                70
+                %
+              </div>
+            </div>
+            <div
+              className="skillbar"
+              key="ReactJS"
+              style={
+                Object {
+                  "height": "28px",
+                  "lineHeight": "28px",
+                }
+              }
+            >
+              <div
+                className="skillbar-title"
+                style={
+                  Object {
+                    "background": "#2980b9",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <span>
+                  ReactJS
+                </span>
+              </div>
+              <div
+                className="skillbar-bar collapsed"
+                style={
+                  Object {
+                    "background": "#3498db",
+                    "transition": "width 3000ms ease-in-out",
+                    "width": "calc((100% - 110px) * (66 * 0.01))",
+                  }
+                }
+              />
+              <div
+                className="skillbar-percent"
+              >
+                66
+                %
+              </div>
+            </div>
+            <div
+              className="skillbar"
+              key="Docker"
+              style={
+                Object {
+                  "height": "28px",
+                  "lineHeight": "28px",
+                }
+              }
+            >
+              <div
+                className="skillbar-title"
+                style={
+                  Object {
+                    "background": "#2980b9",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <span>
+                  Docker
+                </span>
+              </div>
+              <div
+                className="skillbar-bar collapsed"
+                style={
+                  Object {
+                    "background": "#3498db",
+                    "transition": "width 3000ms ease-in-out",
+                    "width": "calc((100% - 110px) * (70 * 0.01))",
+                  }
+                }
+              />
+              <div
+                className="skillbar-percent"
+              >
+                70
+                %
+              </div>
+            </div>
+            <div
+              className="skillbar"
+              key="AWS"
+              style={
+                Object {
+                  "height": "28px",
+                  "lineHeight": "28px",
+                }
+              }
+            >
+              <div
+                className="skillbar-title"
+                style={
+                  Object {
+                    "background": "#2980b9",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <span>
+                  AWS
+                </span>
+              </div>
+              <div
+                className="skillbar-bar collapsed"
+                style={
+                  Object {
+                    "background": "#3498db",
+                    "transition": "width 3000ms ease-in-out",
+                    "width": "calc((100% - 110px) * (65 * 0.01))",
+                  }
+                }
+              />
+              <div
+                className="skillbar-percent"
+              >
+                65
+                %
+              </div>
+            </div>
+            <div
+              className="skillbar"
+              key="ELK"
+              style={
+                Object {
+                  "height": "28px",
+                  "lineHeight": "28px",
+                }
+              }
+            >
+              <div
+                className="skillbar-title"
+                style={
+                  Object {
+                    "background": "#2980b9",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <span>
+                  ELK
+                </span>
+              </div>
+              <div
+                className="skillbar-bar collapsed"
+                style={
+                  Object {
+                    "background": "#3498db",
+                    "transition": "width 3000ms ease-in-out",
+                    "width": "calc((100% - 110px) * (60 * 0.01))",
+                  }
+                }
+              />
+              <div
+                className="skillbar-percent"
+              >
+                60
+                %
+              </div>
+            </div>
+            <div
+              className="skillbar"
+              key="NoSQL"
+              style={
+                Object {
+                  "height": "28px",
+                  "lineHeight": "28px",
+                }
+              }
+            >
+              <div
+                className="skillbar-title"
+                style={
+                  Object {
+                    "background": "#2980b9",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <span>
+                  NoSQL
+                </span>
+              </div>
+              <div
+                className="skillbar-bar collapsed"
+                style={
+                  Object {
+                    "background": "#3498db",
+                    "transition": "width 3000ms ease-in-out",
+                    "width": "calc((100% - 110px) * (57 * 0.01))",
+                  }
+                }
+              />
+              <div
+                className="skillbar-percent"
+              >
+                57
+                %
+              </div>
+            </div>
+            <div
+              className="skillbar"
+              key="C#"
+              style={
+                Object {
+                  "height": "28px",
+                  "lineHeight": "28px",
+                }
+              }
+            >
+              <div
+                className="skillbar-title"
+                style={
+                  Object {
+                    "background": "#2980b9",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <span>
+                  C#
+                </span>
+              </div>
+              <div
+                className="skillbar-bar collapsed"
+                style={
+                  Object {
+                    "background": "#3498db",
+                    "transition": "width 3000ms ease-in-out",
+                    "width": "calc((100% - 110px) * (50 * 0.01))",
+                  }
+                }
+              />
+              <div
+                className="skillbar-percent"
+              >
+                50
+                %
+              </div>
+            </div>
+          </div>
+        </t>
+      </div>
+    </ScrollAnimation>
+  </div>
+</ProfileSkillSection>
+`;

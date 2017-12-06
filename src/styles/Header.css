@@ -1,0 +1,84 @@
+header {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0,0,0,0.2);
+    -webkit-transition: height 0.8s;
+    -moz-transition: height 0.8s;
+    -ms-transition: height 0.8s;
+    -o-transition: height 0.8s;
+    transition: height 0.8s; }
+header img#logo {
+    display: inline-block;
+    float: left;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+header nav {
+    display: inline-block;
+    float: right; }
+header nav a {
+    line-height: 150px;
+    margin-left: 20px;
+    color: #9fdbfc;
+    font-weight: 700;
+    font-size: 18px;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;}
+header nav a:hover {
+    color: white; }
+header.affix {
+    background-color: rgba(0,0,0,1);
+    height: 75px; }
+header.affix img#logo {
+    -webkit-transform: translate(0%, -25%) scale(0.5) rotate(360deg);
+    -moz-transform:translate(0%, -25%) scale(0.5) rotate(360deg) ;
+    transform: translate(0%, -25%) scale(0.5) rotate(360deg);}
+header.affix nav a {
+    line-height: 75px; }
+
+@media all and (max-width: 660px) {
+    header img#logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        height: 100px;
+        line-height: 100px;
+        text-align: center; }
+    header nav {
+        display: block;
+        float: none;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto; }
+    header nav a {
+        line-height: 50px;
+        margin: 0 10px; }
+    header.affix {
+        height: 75px; }
+    header.affix img#logo {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg) ;
+        transform: rotate(360deg);
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px; }
+    header.affix nav {
+        height: 35px; }
+    header.affix nav a {
+        line-height: 35px; } }
+
+@media all and (max-width: 600px) {
+    .container {
+        width: 100%; }
+}

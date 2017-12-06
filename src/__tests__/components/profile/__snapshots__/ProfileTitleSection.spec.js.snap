@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileTitleSection compare to snapshot 1`] = `
+<ProfileTitleSection>
+  <div
+    className="row col-lg-12 text-center"
+  >
+    <ScrollAnimation
+      animateIn="fadeInLeft"
+      animateOnce={true}
+      delay={0}
+      duration={1}
+      initiallyVisible={false}
+      offset={50}
+    >
+      <div
+        className="animated"
+        style={
+          Object {
+            "animationDuration": "1s",
+            "visibility": "hidden",
+          }
+        }
+      >
+        <div
+          className="profileTitle"
+        >
+          PROFILE
+        </div>
+      </div>
+    </ScrollAnimation>
+    <ScrollAnimation
+      animateIn="fadeInLeft"
+      animateOnce={true}
+      delay={500}
+      duration={1}
+      initiallyVisible={false}
+      offset={100}
+    >
+      <div
+        className="animated"
+        style={
+          Object {
+            "animationDuration": "1s",
+            "visibility": "hidden",
+          }
+        }
+      >
+        <div>
+          <hr />
+        </div>
+      </div>
+    </ScrollAnimation>
+    <br />
+    <br />
+    <div
+      className="container"
+    >
+      <div
+        className="row col-lg-12"
+      >
+        <div
+          className="col-xs-6 col-sm-offset-2 col-sm-2"
+        >
+          <ScrollAnimation
+            animateIn="fadeIn"
+            animateOnce={true}
+            delay={300}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <div
+                className="propertyTitle"
+              >
+                Design.
+              </div>
+            </div>
+          </ScrollAnimation>
+        </div>
+        <div
+          className="col-xs-6 col-sm-2"
+        >
+          <ScrollAnimation
+            animateIn="fadeIn"
+            animateOnce={true}
+            delay={500}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <div
+                className="propertyTitle"
+              >
+                Delivery.
+              </div>
+            </div>
+          </ScrollAnimation>
+        </div>
+        <div
+          className="col-xs-6 col-sm-2"
+        >
+          <ScrollAnimation
+            animateIn="fadeIn"
+            animateOnce={true}
+            delay={700}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <div
+                className="propertyTitle"
+              >
+                Back-end.
+              </div>
+            </div>
+          </ScrollAnimation>
+        </div>
+        <div
+          className="col-xs-6 col-sm-2"
+        >
+          <ScrollAnimation
+            animateIn="fadeIn"
+            animateOnce={true}
+            delay={900}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <div
+                className="propertyTitle"
+              >
+                Front-end.
+              </div>
+            </div>
+          </ScrollAnimation>
+        </div>
+      </div>
+    </div>
+  </div>
+</ProfileTitleSection>
+`;

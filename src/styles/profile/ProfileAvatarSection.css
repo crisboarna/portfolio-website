@@ -1,0 +1,15 @@
+.avatarText {
+    color: #616161;
+    font-size: 12pt;
+    padding-top: 3%;
+    font-family: "Raleway";
+}
+
+.cropShield {
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 10% 10%;
+    border-top-right-radius: 10% 10%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}

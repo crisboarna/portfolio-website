@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header compare to snapshot 1`] = `
+<Header>
+  <header
+    data-offset-top="100"
+    data-spy="affix"
+  >
+    <div
+      className="container clearfix"
+    >
+      <img
+        alt="logo"
+        id="logo"
+        src="HeaderLogo.png"
+      />
+      <nav>
+        <Scrollchor
+          to="#landingPage"
+        >
+          <a
+            href="#landingPage"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </Scrollchor>
+        <Scrollchor
+          to="#profile"
+        >
+          <a
+            href="#profile"
+            onClick={[Function]}
+          >
+            Profile
+          </a>
+        </Scrollchor>
+      </nav>
+    </div>
+  </header>
+</Header>
+`;

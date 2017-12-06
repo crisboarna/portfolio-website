@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingPage compare to snapshot 1`] = `
+<LandingPage>
+  <div
+    id="landingPage"
+  >
+    <LandingPageTyping>
+      <div
+        className="row"
+      >
+        <Typist
+          avgTypingDelay={100}
+          className="col-xs-2 col-sm-offset-4 typing-top landing-typing"
+          cursor={
+            Object {
+              "hideWhenDone": true,
+              "hideWhenDoneDelay": 0,
+            }
+          }
+          delayGenerator={[Function]}
+          onCharacterTyped={[Function]}
+          onLineTyped={[Function]}
+          onTypingDone={[Function]}
+          startDelay={0}
+          stdTypingDelay={25}
+        >
+          <div
+            className="Typist col-xs-2 col-sm-offset-4 typing-top landing-typing"
+          >
+            <Cursor
+              blink={true}
+              element="|"
+              hideWhenDone={true}
+              hideWhenDoneDelay={0}
+              isDone={false}
+              show={true}
+            >
+              <span
+                className="Cursor Cursor--blinking"
+              >
+                |
+              </span>
+            </Cursor>
+          </div>
+        </Typist>
+      </div>
+    </LandingPageTyping>
+    <video
+      autoPlay={true}
+      loop={true}
+      muted={true}
+    >
+      <source
+        src="LandingVideo.mp4"
+        type="video/mp4"
+      />
+      <source
+        src="LandingVideo.webm"
+        type="video/webm"
+      />
+      <source
+        src="LandingVideo.ogv"
+        type="video/ogv"
+      />
+      <img
+        alt="Video Background"
+        src="LandingVideoSnapshot.jpg"
+      />
+    </video>
+    <div
+      className="scrollDownButton"
+      id="scrollButton"
+    >
+      <Scrollchor
+        to="#profile"
+      >
+        <a
+          href="#profile"
+          onClick={[Function]}
+        >
+          <span />
+          Scroll
+        </a>
+      </Scrollchor>
+    </div>
+  </div>
+</LandingPage>
+`;

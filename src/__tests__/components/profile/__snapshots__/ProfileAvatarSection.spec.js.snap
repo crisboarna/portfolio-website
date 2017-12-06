@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileAvatarSection compare to snapshot 1`] = `
+<ProfileAvatarSection>
+  <div
+    className="col-xs-6 col-lg-6"
+  >
+    <ScrollAnimation
+      animateIn="fadeInLeft"
+      animateOnce={true}
+      delay={0}
+      duration={1}
+      initiallyVisible={false}
+      offset={50}
+    >
+      <div
+        className="animated"
+        style={
+          Object {
+            "animationDuration": "1s",
+            "visibility": "hidden",
+          }
+        }
+      >
+        <img
+          alt="Avatar"
+          className="cropShield"
+          src="Avatar.png"
+        />
+        <p
+          className="avatarText"
+        >
+          I am afire with desire to sire cloud native fullstack systems.
+          <br />
+          Experienced in delivering systems to companies ranging from investment banks to small startups.
+          <br />
+          <Scrollchor
+            to="#contact"
+          >
+            <a
+              href="#contact"
+              onClick={[Function]}
+            >
+              <span />
+              Let's make your dream come true.
+            </a>
+          </Scrollchor>
+        </p>
+      </div>
+    </ScrollAnimation>
+  </div>
+</ProfileAvatarSection>
+`;

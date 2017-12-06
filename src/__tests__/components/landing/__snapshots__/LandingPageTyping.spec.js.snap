@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingPageTyping compare to snapshot 1`] = `
+<LandingPageTyping>
+  <div
+    className="row"
+  >
+    <Typist
+      avgTypingDelay={100}
+      className="col-xs-2 col-sm-offset-4 typing-top landing-typing"
+      cursor={
+        Object {
+          "hideWhenDone": true,
+          "hideWhenDoneDelay": 0,
+        }
+      }
+      delayGenerator={[Function]}
+      onCharacterTyped={[Function]}
+      onLineTyped={[Function]}
+      onTypingDone={[Function]}
+      startDelay={0}
+      stdTypingDelay={25}
+    >
+      <div
+        className="Typist col-xs-2 col-sm-offset-4 typing-top landing-typing"
+      >
+        <Cursor
+          blink={true}
+          element="|"
+          hideWhenDone={true}
+          hideWhenDoneDelay={0}
+          isDone={false}
+          show={true}
+        >
+          <span
+            className="Cursor Cursor--blinking"
+          >
+            |
+          </span>
+        </Cursor>
+      </div>
+    </Typist>
+  </div>
+</LandingPageTyping>
+`;

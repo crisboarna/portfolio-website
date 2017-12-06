@@ -1,0 +1,71 @@
+.landing-typing {
+    position:absolute;
+    top:50%;
+}
+
+.typing {
+    padding-left:5%;
+    font-size: 70px;
+    letter-spacing: 1px;
+    color: #f8f8f8;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    -webkit-animation: secondTypingEffect 0.5s forwards;
+    animation: secondTypingEffect 0.5s forwards;}
+
+@keyframes secondTypingEffect {
+    0%   {opacity: 0;}
+    90%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes secondTypingEffect {
+    0%   {opacity: 0;}
+    90%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.typing-top {
+    padding-left:5%;
+    font-size: 70px;
+    letter-spacing: 1px;
+    color: #f8f8f8;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.pulsate {
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5;
+    color: #27a9ff;
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@media all and (max-width: 660px) {
+    .typing {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        font-size: 70px;
+        letter-spacing: 1px;
+        color: #f8f8f8;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .typing-top {
+        position: absolute;
+        top: 35%;
+        width: 100%;
+        font-size: 70px;
+        letter-spacing: 1px;
+        color: #f8f8f8;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+}

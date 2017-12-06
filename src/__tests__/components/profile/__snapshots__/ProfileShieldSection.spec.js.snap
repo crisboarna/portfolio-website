@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileShieldSection compare to snapshot 1`] = `
+<ProfileShieldSection>
+  <div
+    className="row col-lg-12 text-center"
+  >
+    <br />
+    <br />
+    <div
+      className="container"
+    >
+      <div
+        className="row col-lg-12"
+      >
+        <div
+          className="col-sm-6 col-md-3"
+        >
+          <ScrollAnimation
+            animateIn="flipInY"
+            animateOnce={true}
+            delay={250}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <div
+                className="col-xs-12 img-responsive"
+              >
+                <span
+                  className="shield"
+                >
+                  <Speedometer
+                    size={85}
+                  >
+                    <svg
+                      style={
+                        Object {
+                          "height": 85,
+                          "width": 85,
+                        }
+                      }
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12,16A3,3 0 0,1 9,13C9,11.88 9.61,10.9 10.5,10.39L20.21,4.77L14.68,14.35C14.18,15.33 13.17,16 12,16M12,3C13.81,3 15.5,3.5 16.97,4.32L14.87,5.53C14,5.19 13,5 12,5A8,8 0 0,0 4,13C4,15.21 4.89,17.21 6.34,18.65H6.35C6.74,19.04 6.74,19.67 6.35,20.06C5.96,20.45 5.32,20.45 4.93,20.07V20.07C3.12,18.26 2,15.76 2,13A10,10 0 0,1 12,3M22,13C22,15.76 20.88,18.26 19.07,20.07V20.07C18.68,20.45 18.05,20.45 17.66,20.06C17.27,19.67 17.27,19.04 17.66,18.65V18.65C19.11,17.2 20,15.21 20,13C20,12 19.81,11 19.46,10.1L20.67,8C21.5,9.5 22,11.18 22,13Z"
+                      />
+                    </svg>
+                  </Speedometer>
+                </span>
+              </div>
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation
+            animateIn="fadeIn"
+            animateOnce={true}
+            delay={0}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <h4
+                className="propertyTitle"
+              >
+                Fast
+              </h4>
+              <p
+                className="propertyText"
+              >
+                Swift processing, cloud friendly horizontal scalability and lag free interactions are my priority.
+              </p>
+            </div>
+          </ScrollAnimation>
+        </div>
+        <div
+          className="col-xs-6 col-md-3"
+        >
+          <ScrollAnimation
+            animateIn="flipInY"
+            animateOnce={true}
+            delay={500}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <div
+                className="col-xs-12 img-responsive"
+              >
+                <span
+                  className="shield"
+                >
+                  <Lightbulb
+                    size={85}
+                  >
+                    <svg
+                      style={
+                        Object {
+                          "height": 85,
+                          "width": 85,
+                        }
+                      }
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12,2A7,7 0 0,0 5,9C5,11.38 6.19,13.47 8,14.74V17A1,1 0 0,0 9,18H15A1,1 0 0,0 16,17V14.74C17.81,13.47 19,11.38 19,9A7,7 0 0,0 12,2M9,21A1,1 0 0,0 10,22H14A1,1 0 0,0 15,21V20H9V21Z"
+                      />
+                    </svg>
+                  </Lightbulb>
+                </span>
+              </div>
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation
+            animateIn="fadeIn"
+            animateOnce={true}
+            delay={500}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <h4
+                className="propertyTitle"
+              >
+                Ideas
+              </h4>
+              <p
+                className="propertyText"
+              >
+                Exposure to plethora of products and methodologies enable me to bring alternative solutions.
+              </p>
+            </div>
+          </ScrollAnimation>
+        </div>
+        <div
+          className="col-xs-6 col-md-3"
+        >
+          <ScrollAnimation
+            animateIn="flipInY"
+            animateOnce={true}
+            delay={750}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <div
+                className="col-xs-12 img-responsive"
+              >
+                <span
+                  className="shield"
+                >
+                  <Rotate3d
+                    size={85}
+                  >
+                    <svg
+                      style={
+                        Object {
+                          "height": 85,
+                          "width": 85,
+                        }
+                      }
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12,5C16.97,5 21,7.69 21,11C21,12.68 19.96,14.2 18.29,15.29C19.36,14.42 20,13.32 20,12.13C20,9.29 16.42,7 12,7V10L8,6L12,2V5M12,19C7.03,19 3,16.31 3,13C3,11.32 4.04,9.8 5.71,8.71C4.64,9.58 4,10.68 4,11.88C4,14.71 7.58,17 12,17V14L16,18L12,22V19Z"
+                      />
+                    </svg>
+                  </Rotate3d>
+                </span>
+              </div>
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation
+            animateIn="fadeIn"
+            animateOnce={true}
+            delay={750}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <h4
+                className="propertyTitle"
+              >
+                Collaboration
+              </h4>
+              <p
+                className="propertyText"
+              >
+                I discuss with stakeholders to nurture and transform ideas into well thought out design specs.
+              </p>
+            </div>
+          </ScrollAnimation>
+        </div>
+        <div
+          className="col-xs-6 col-md-3"
+        >
+          <ScrollAnimation
+            animateIn="flipInY"
+            animateOnce={true}
+            delay={1000}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <div
+                className="col-xs-12 img-responsive"
+              >
+                <span
+                  className="shield"
+                >
+                  <Xml
+                    size={85}
+                  >
+                    <svg
+                      style={
+                        Object {
+                          "height": 85,
+                          "width": 85,
+                        }
+                      }
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12.89,3L14.85,3.4L11.11,21L9.15,20.6L12.89,3M19.59,12L16,8.41V5.58L22.42,12L16,18.41V15.58L19.59,12M1.58,12L8,5.58V8.41L4.41,12L8,15.58V18.41L1.58,12Z"
+                      />
+                    </svg>
+                  </Xml>
+                </span>
+              </div>
+            </div>
+          </ScrollAnimation>
+          <ScrollAnimation
+            animateIn="fadeIn"
+            animateOnce={true}
+            delay={1000}
+            duration={1}
+            initiallyVisible={false}
+            offset={100}
+          >
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "1s",
+                  "visibility": "hidden",
+                }
+              }
+            >
+              <h4
+                className="propertyTitle"
+              >
+                Code
+              </h4>
+              <p
+                className="propertyText"
+              >
+                Strong believer of TDD and design patterns can swiftly iterate on products.
+              </p>
+            </div>
+          </ScrollAnimation>
+        </div>
+      </div>
+    </div>
+  </div>
+</ProfileShieldSection>
+`;

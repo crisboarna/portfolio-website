@@ -1,0 +1,30 @@
+#profile {
+    overflow: hidden;
+    width:100%;
+    height: 100vh;
+    padding-top: 5%;
+}
+
+.spacer {
+    padding:0;
+    height:10vh;
+    margin-top: -5%;
+    margin-bottom: -0.5%;
+}
+
+@media(max-width:1200px) {
+    .adjust-fontsize{
+        font-size:2em;
+        font-weight: 700;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:992px) {
+    .adjust-fontsize{
+        font-size:1.0em;
+    }
+    .row-height{
+        min-height:70px;
+    }
+}

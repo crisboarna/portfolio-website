@@ -1,0 +1,25 @@
+.propertyText {
+    color: #616161;
+    font-size: 12pt;
+}
+
+.propertyTitle {
+    font-family: "Raleway-bold";
+    font-size: 18pt;
+}
+
+.shield {
+    width:100px;
+    height:100px;
+    background-color: #3498db;
+    border-top-left-radius: 10% 10%;
+    border-top-right-radius: 10% 10%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border:2px solid #0a3047;
+    line-height:80px;
+    text-align:center;
+    vertical-align:middle;
+    display:inline-block;
+    position:relative;
+}

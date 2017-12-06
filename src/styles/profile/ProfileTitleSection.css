@@ -1,0 +1,20 @@
+.profileTitle {
+    font-size: 30pt;
+    letter-spacing: 2px;
+    color: #444649;
+    text-align: center;
+    font-family: "Raleway-bold";
+}
+
+.propertyTitle {
+    font-family: "Raleway-bold";
+    font-size: 18pt;
+}
+
+hr {
+    margin: auto;
+    width: 15%;
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 5px 1px black;
+}
