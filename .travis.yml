@@ -8,8 +8,6 @@ notifications:
   email: false
 node_js:
   - "8"
-before_install:
-  - npm install -g greenkeeper-lockfile@1
 before_script:
   - greenkeeper-lockfile-update
 script:
@@ -32,7 +30,7 @@ deploy:
   bucket: crisboarna
   cache_control: "max-age=21600"
   on:
-    branch: ["master"]
+    branch: master
 after_deploy:
   - aws configure set preview.cloudfront true
   - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
