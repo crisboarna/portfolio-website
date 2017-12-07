@@ -25,8 +25,9 @@
     "build-deploy": "npm run build && npm run deploy",
     "deploy": "aws s3 sync build/ s3://$npm_package_config_s3BucketName --profile cris",
     "analyze": "source-map-explorer build/static/js/main.*",
+    "precommit": "npm run test:coverage",
     "commit": "git-cz",
-    "prepush": "npm test",
+    "prepush": "npm run test:coverage",
     "semantic-release": "semantic-release pre && semantic-release post"
   },
   "dependencies": {

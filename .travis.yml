@@ -6,10 +6,14 @@ notifications:
   email: false
 node_js:
   - '8'
+before_install:
+  - npm install -g greenkeeper-lockfile@1
 before_script:
-  - npm prune
+  - greenkeeper-lockfile-update
 script:
   - npm test
+after_script:
+  - greenkeeper-lockfile-upload
 after_success:
   - git fetch --tags
   - npm run semantic-release
