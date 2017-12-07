@@ -16,6 +16,7 @@ script:
 after_script:
   - greenkeeper-lockfile-upload
 after_success:
+  - npm run report-coverage
   - git fetch --tags
   - npm run semantic-release
 branches:
