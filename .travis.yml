@@ -13,6 +13,7 @@ before_script:
   - greenkeeper-lockfile-update
 script:
   - npm run test:coverage
+  - npm run build
 after_script:
   - greenkeeper-lockfile-upload
 after_success:
@@ -21,3 +22,16 @@ after_success:
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+deploy:
+  skip_cleanup: true
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_KEY
+  local_dir: build
+  bucket: crisboarna
+  cache_control: "max-age=21600"
+  on:
+    branch: ["master"]
+after_deploy:
+  - aws configure set preview.cloudfront true
+  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
