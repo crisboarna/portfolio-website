@@ -5,6 +5,7 @@ import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "animate.css/animate.min.css";
 window.$ = window.jQuery=$;
+window.Popper = require('popper.js');
 require('bootstrap');
 
 import App from './components/App'; // eslint-disable-line import/first
