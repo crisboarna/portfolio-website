@@ -28,10 +28,9 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_KEY
   local_dir: build
-  bucket: crisboarna
+  bucket: crisboarna.com
   cache_control: "max-age=21600"
   on:
     branch: master
 after_deploy:
   - aws configure set preview.cloudfront true
-  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"

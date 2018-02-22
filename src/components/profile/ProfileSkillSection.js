@@ -6,10 +6,10 @@ const SKILLS = [
   {type: "Java", level: 86},
   {type: "Javascript", level: 78},
   {type: "Spring", level: 75},
+  {type: "AWS", level: 75},
   {type: "Python", level: 70},
   {type: "ReactJS", level: 66},
   {type: "Docker", level: 70},
-  {type: "AWS", level: 65},
   {type: "ELK", level: 60},
   {type: "NoSQL", level: 57},
   {type: "C#", level: 50}
@@ -26,7 +26,7 @@ const colors = {
 const ProfileSkillSection = () => {
   return (
     <div className="col-xs-6 col-lg-6">
-      <ScrollAnimation animateIn='fadeInRight' animateOnce={true} offset={500}>
+      <ScrollAnimation animateIn='fadeInRight' animateOnce={true} offset={450}>
         <SkillBar skills={SKILLS} height={28} offset={0} colors={colors}/>
       </ScrollAnimation>
     </div>

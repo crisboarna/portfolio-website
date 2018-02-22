@@ -580,7 +580,7 @@ exports[`Profile compare to snapshot 1`] = `
                   delay={0}
                   duration={1}
                   initiallyVisible={false}
-                  offset={500}
+                  offset={450}
                 >
                   <div
                     className="animated"
@@ -620,6 +620,10 @@ exports[`Profile compare to snapshot 1`] = `
                             "type": "Spring",
                           },
                           Object {
+                            "level": 75,
+                            "type": "AWS",
+                          },
+                          Object {
                             "level": 70,
                             "type": "Python",
                           },
@@ -630,10 +634,6 @@ exports[`Profile compare to snapshot 1`] = `
                           Object {
                             "level": 70,
                             "type": "Docker",
-                          },
-                          Object {
-                            "level": 65,
-                            "type": "AWS",
                           },
                           Object {
                             "level": 60,
@@ -773,6 +773,46 @@ exports[`Profile compare to snapshot 1`] = `
                         </div>
                         <div
                           className="skillbar"
+                          key="AWS"
+                          style={
+                            Object {
+                              "height": "28px",
+                              "lineHeight": "28px",
+                            }
+                          }
+                        >
+                          <div
+                            className="skillbar-title"
+                            style={
+                              Object {
+                                "background": "#2980b9",
+                                "color": "#fff",
+                              }
+                            }
+                          >
+                            <span>
+                              AWS
+                            </span>
+                          </div>
+                          <div
+                            className="skillbar-bar collapsed"
+                            style={
+                              Object {
+                                "background": "#3498db",
+                                "transition": "width 3000ms ease-in-out",
+                                "width": "calc((100% - 110px) * (75 * 0.01))",
+                              }
+                            }
+                          />
+                          <div
+                            className="skillbar-percent"
+                          >
+                            75
+                            %
+                          </div>
+                        </div>
+                        <div
+                          className="skillbar"
                           key="Python"
                           style={
                             Object {
@@ -888,46 +928,6 @@ exports[`Profile compare to snapshot 1`] = `
                             className="skillbar-percent"
                           >
                             70
-                            %
-                          </div>
-                        </div>
-                        <div
-                          className="skillbar"
-                          key="AWS"
-                          style={
-                            Object {
-                              "height": "28px",
-                              "lineHeight": "28px",
-                            }
-                          }
-                        >
-                          <div
-                            className="skillbar-title"
-                            style={
-                              Object {
-                                "background": "#2980b9",
-                                "color": "#fff",
-                              }
-                            }
-                          >
-                            <span>
-                              AWS
-                            </span>
-                          </div>
-                          <div
-                            className="skillbar-bar collapsed"
-                            style={
-                              Object {
-                                "background": "#3498db",
-                                "transition": "width 3000ms ease-in-out",
-                                "width": "calc((100% - 110px) * (65 * 0.01))",
-                              }
-                            }
-                          />
-                          <div
-                            className="skillbar-percent"
-                          >
-                            65
                             %
                           </div>
                         </div>
