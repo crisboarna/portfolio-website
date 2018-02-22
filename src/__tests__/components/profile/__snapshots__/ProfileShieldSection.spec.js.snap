@@ -22,14 +22,14 @@ exports[`ProfileShieldSection compare to snapshot 1`] = `
             delay={250}
             duration={1}
             initiallyVisible={false}
-            offset={100}
+            offset={150}
           >
             <div
               className="animated"
               style={
                 Object {
                   "animationDuration": "1s",
-                  "visibility": "hidden",
+                  "opacity": 0,
                 }
               }
             >
@@ -66,14 +66,14 @@ exports[`ProfileShieldSection compare to snapshot 1`] = `
             delay={0}
             duration={1}
             initiallyVisible={false}
-            offset={100}
+            offset={150}
           >
             <div
               className="animated"
               style={
                 Object {
                   "animationDuration": "1s",
-                  "visibility": "hidden",
+                  "opacity": 0,
                 }
               }
             >
@@ -99,14 +99,14 @@ exports[`ProfileShieldSection compare to snapshot 1`] = `
             delay={500}
             duration={1}
             initiallyVisible={false}
-            offset={100}
+            offset={150}
           >
             <div
               className="animated"
               style={
                 Object {
                   "animationDuration": "1s",
-                  "visibility": "hidden",
+                  "opacity": 0,
                 }
               }
             >
@@ -143,14 +143,14 @@ exports[`ProfileShieldSection compare to snapshot 1`] = `
             delay={500}
             duration={1}
             initiallyVisible={false}
-            offset={100}
+            offset={150}
           >
             <div
               className="animated"
               style={
                 Object {
                   "animationDuration": "1s",
-                  "visibility": "hidden",
+                  "opacity": 0,
                 }
               }
             >
@@ -176,14 +176,14 @@ exports[`ProfileShieldSection compare to snapshot 1`] = `
             delay={750}
             duration={1}
             initiallyVisible={false}
-            offset={100}
+            offset={150}
           >
             <div
               className="animated"
               style={
                 Object {
                   "animationDuration": "1s",
-                  "visibility": "hidden",
+                  "opacity": 0,
                 }
               }
             >
@@ -220,14 +220,14 @@ exports[`ProfileShieldSection compare to snapshot 1`] = `
             delay={750}
             duration={1}
             initiallyVisible={false}
-            offset={100}
+            offset={150}
           >
             <div
               className="animated"
               style={
                 Object {
                   "animationDuration": "1s",
-                  "visibility": "hidden",
+                  "opacity": 0,
                 }
               }
             >
@@ -253,14 +253,14 @@ exports[`ProfileShieldSection compare to snapshot 1`] = `
             delay={1000}
             duration={1}
             initiallyVisible={false}
-            offset={100}
+            offset={150}
           >
             <div
               className="animated"
               style={
                 Object {
                   "animationDuration": "1s",
-                  "visibility": "hidden",
+                  "opacity": 0,
                 }
               }
             >
@@ -297,14 +297,14 @@ exports[`ProfileShieldSection compare to snapshot 1`] = `
             delay={1000}
             duration={1}
             initiallyVisible={false}
-            offset={100}
+            offset={150}
           >
             <div
               className="animated"
               style={
                 Object {
                   "animationDuration": "1s",
-                  "visibility": "hidden",
+                  "opacity": 0,
                 }
               }
             >

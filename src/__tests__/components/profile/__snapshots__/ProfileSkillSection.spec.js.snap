@@ -18,7 +18,7 @@ exports[`ProfileSkillSection compare to snapshot 1`] = `
         style={
           Object {
             "animationDuration": "1s",
-            "visibility": "hidden",
+            "opacity": 0,
           }
         }
       >

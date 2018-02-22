@@ -153,7 +153,7 @@ exports[`App compare to snapshot 1`] = `
                   style={
                     Object {
                       "animationDuration": "1s",
-                      "visibility": "hidden",
+                      "opacity": 0,
                     }
                   }
                 >
@@ -170,14 +170,14 @@ exports[`App compare to snapshot 1`] = `
                 delay={500}
                 duration={1}
                 initiallyVisible={false}
-                offset={100}
+                offset={150}
               >
                 <div
                   className="animated"
                   style={
                     Object {
                       "animationDuration": "1s",
-                      "visibility": "hidden",
+                      "opacity": 0,
                     }
                   }
                 >
@@ -203,14 +203,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={300}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -231,14 +231,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={500}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -259,14 +259,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={700}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -287,14 +287,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={900}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -331,14 +331,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={250}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -375,14 +375,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={0}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -408,14 +408,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={500}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -452,14 +452,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={500}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -485,14 +485,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={750}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -529,14 +529,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={750}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -562,14 +562,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={1000}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -606,14 +606,14 @@ exports[`App compare to snapshot 1`] = `
                       delay={1000}
                       duration={1}
                       initiallyVisible={false}
-                      offset={100}
+                      offset={150}
                     >
                       <div
                         className="animated"
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -663,7 +663,7 @@ exports[`App compare to snapshot 1`] = `
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
@@ -712,7 +712,7 @@ exports[`App compare to snapshot 1`] = `
                         style={
                           Object {
                             "animationDuration": "1s",
-                            "visibility": "hidden",
+                            "opacity": 0,
                           }
                         }
                       >
