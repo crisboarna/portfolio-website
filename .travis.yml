@@ -29,6 +29,7 @@ deploy:
   secret_access_key: $AWS_SECRET_KEY
   local_dir: build
   bucket: crisboarna.com
+  region: eu-west-1
   cache_control: "max-age=21600"
   on:
     branch: master
