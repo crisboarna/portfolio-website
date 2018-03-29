@@ -60,7 +60,7 @@
     "last-release-git": "0.0.3",
     "react-addons-test-utils": "15.6.2",
     "react-scripts": "1.1.1",
-    "react-test-renderer": "16.2.0",
+    "react-test-renderer": "16.3.0",
     "semantic-release": "12.4.1",
     "source-map-explorer": "1.5.0"
   },
