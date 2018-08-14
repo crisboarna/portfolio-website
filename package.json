@@ -62,7 +62,7 @@
     "react-scripts": "1.1.1",
     "react-test-renderer": "16.2.0",
     "semantic-release": "12.4.1",
-    "source-map-explorer": "1.5.0"
+    "source-map-explorer": "1.6.0"
   },
   "jest": {
     "snapshotSerializers": [
