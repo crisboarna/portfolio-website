@@ -34,7 +34,7 @@
   "dependencies": {
     "animate.css": "3.6.1",
     "bootstrap": "3.3.7",
-    "jquery": "3.3.1",
+    "jquery": "3.4.0",
     "popper.js": "1.12.9",
     "react": "16.2.0",
     "react-animate-on-scroll": "2.0.2",
